@@ -4,11 +4,11 @@ import {ProductItem} from "./ProductItem/ProductItem";
 import {useTelegram} from '../../hooks/useTelegram'
 import { useCallback, useEffect, useState} from "react";
 const products = [
-{id: '1' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
-{id: '2' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
-{id: '3' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
-{id: '4' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
-{id: '5' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
+{id: '1' , title: 'аркана на пуджа',  price: 1700, description:'', img: 'https://cybersport.metaratings.ru/upload/iblock/ace/ace5eeedb671c71f57ced00294a7acf1.jpg'}, 
+{id: '2' , title: 'рапира',  price: 1700, description:'', img: 'https://dota2ok.ru/wp-content/uploads/2021/09/05.png779a5b48-b70a-4108-9e3c-409748c96b11Large.jpg'}, 
+{id: '3' , title: 'мипоооо',  price: 1700, description:'', img: 'https://yt3.googleusercontent.com/Iwx27OubyxdtNV10fuwKYQaiF9ZVb2Qu2L3u6H3ERIzyrcHAd69tWGbfPLDgyOOKq35zJ0k_=s900-c-k-c0x00ffffff-no-rj'}, 
+{id: '4' , title: 'аркана на сфа',  price: 1700, description:'', img: 'https://kopiberi.ru/uploads/images/feature_image/cosmetic-icon-demon-eater.png'}, 
+{id: '5' , title: 'арк',  price: 1700, description:'', img: 'https://i.pinimg.com/originals/a1/b1/64/a1b1640216942c4eee8e47ee957cd60b.jpg'}, 
  
 ]
 
